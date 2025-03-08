@@ -1,2 +1,12 @@
-# UniFinder
-UniFinder – A university search system that helps users find colleges by name, country, or state. Built using HTML, CSS, and JavaScript.
+# UniFinder 🎓🔍  
+UniFinder is a web-based university search system that allows users to find colleges based on name, country, or state.  
+
+## Features  
+✅ Search universities by name  
+✅ Filter results by country or state  
+✅ Simple and user-friendly interface  
+
+## Technologies Used  
+- HTML  
+- CSS  
+- JavaScript 
