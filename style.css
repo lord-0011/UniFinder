@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #FFF;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #007bff; /* Blue color for a fresh look */
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #374151;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(253, 251, 251, 0.508);
+}
+
+/* Input Box Styling */
+.box1, .box2, .box3 {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.15);
+}
+
+/* Error Messages */
+.error, .error2, .error3 {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Output Box Styling */
+.outputBox {
+    margin-top: 20px;
+    background: #7a879b89;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: auto;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.outputBox ul {
+    list-style: none;
+    padding: 0;
+}
+
+.outputBox ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.outputBox ul li:hover{
+    transform: scale(1.05);
+    background-color:rgb(177, 179, 180);
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100%;
+    }
+}
